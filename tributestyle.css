@@ -1,0 +1,304 @@
+:root {
+  --dark-primary-color: #303F9F;
+  --primary-color: #3F51B5;
+  --light-primary-color: #C5CAE9;
+  --text-icon-color:#FFFFFF;
+  --primary-text-color:#212121;
+  --secondary-text-color:#757575;
+  --divider-color: #BDBDBD;
+  --accent-color: #FF4081;
+}
+.heading2{
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 2.3px;
+  cursor: pointer;
+}
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: var(--secondary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+.table-heading {
+  background-color: var(--primary-color);
+  color: var(--text-icon-color);
+}
+hr.hr-style {
+  margin-top: 0;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(132, 49, 77, 0.151), rgb(255, 0, 0), rgba(132, 49, 77, 0.151));
+}
+hr.hr-style-two {
+    margin-top: 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--divider-color);
+}
+
+.cover-image {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://resources.pulse.icc-cricket.com/ICC/photo/2021/07/06/0782e3f8-ab08-4c64-a310-0df137c168e4/Sharma-16x9.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover-image-2 {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://wallpapercave.com/wp/wp8299898.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3e456b;
+  opacity: 0.8;
+}
+
+.hero {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-title {
+  font-size: 60px;
+}
+.hero-text {
+  color: var(--text-icon-color);
+}
+
+.chevron {
+  margin-top: 20px;
+  font-size: 32px;
+  color: var(--accent-color);
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 60px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding-bottom: 40px;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.Hitman-intro {
+  margin-bottom: 1em;
+}
+
+.Hitman-title-image {
+  margin-top: 0.2em;
+}
+.Hitman-timeline {
+  text-align: justify;
+}
+
+.Hitman-timeline ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.Hitman-timeline #title-desktop {
+  display: none;
+}
+.Hitman-timeline #Hitman-wiki-imdb-link p{
+  margin-bottom: 20px;
+}
+.Hitman-appreciation {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.Hitman-surprise-video #button-1 {
+  margin-bottom: 0.5em;
+}
+.Hitman-surprise-video #button-2 {
+  margin-bottom: 0.5em;
+}
+
+.Hitman-social-media #card-link-for-mobile a {
+  color: var(--primary-text-color);
+}
+.Hitman-social-media #card-link-for-mobile a:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.Hitman-social-media #card-one {
+  display: none;
+}
+.Hitman-social-media #card-two {
+  display: none;
+}
+
+/* All media queries begin here */
+
+@media screen and (min-width: 400px) {
+  .cover-image {
+    background: url("https://resources.pulse.icc-cricket.com/ICC/photo/2021/07/06/0782e3f8-ab08-4c64-a310-0df137c168e4/Sharma-16x9.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .Hitman-social-media #card-one {
+    display: inherit;
+  }
+  .Hitman-social-media #card-two {
+    display: inherit;
+  }
+  .Hitman-social-media #card-link-for-mobile {
+    display: none;
+}
+}
+
+@media screen and (min-width: 520px) {
+  body {
+    font-size: 18px;
+  }
+  table {
+    font-size: 16px
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Hitman-title-image {
+    margin-top: 20px;
+  }
+  .Hitman-timeline #title-mobile {
+    display: none;
+  }
+  .Hitman-timeline #title-desktop {
+    display: inherit;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .hero-title {
+    font-size: 100px;
+  }
+  .hero-text {
+    font-size: 50px;
+  }
+  .cover-image-2 {
+    background: url("https://wallpapercave.com/wp/wp8299898.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  table {
+    table-layout: auto;
+    word-wrap: normal;
+  }
+}
+
+@media screen and (max-height: 410px) {
+  .hero {
+    top: 25%;
+  }
+  .hero-scroll {
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-height: 410px) {
+  .hero-text {
+    display: none;
+  }
+}
+
+@media screen and (min-height: 411px) and (max-height: 480px) {
+  .hero-scroll {
+    bottom: 30px;
+  }
+}
