@@ -1,32 +1,24 @@
-:root {
-  --dark-primary-color: #303F9F;
-  --primary-color: #3F51B5;
-  --light-primary-color: #C5CAE9;
-  --text-icon-color:#FFFFFF;
-  --primary-text-color:#212121;
-  --secondary-text-color:#757575;
-  --divider-color: #BDBDBD;
-  --accent-color: #FF4081;
-}
 .heading2{
-  -webkit-text-stroke: black;
+  -webkit-text-fill-color: #ffffff;
   -webkit-text-stroke-color: red;
   -webkit-text-stroke-width: 2.3px;
+  text-shadow: 3px 3px 3px red,3px 3px 3px red;
   cursor: pointer;
+  text-align: center;
 }
 body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
+  color: -#3F51B5;
 }
 
 a:hover {
   cursor: pointer;
-  color: var(--accent-color);
+  color: #FF4081;
 }
 
 table {
@@ -34,8 +26,8 @@ table {
   word-wrap: break-word;
 }
 .table-heading {
-  background-color: var(--primary-color);
-  color: var(--text-icon-color);
+  background-color: -#3F51B5;
+  color: #FFFFFF;
 }
 hr.hr-style {
   margin-top: 0;
@@ -48,7 +40,7 @@ hr.hr-style-two {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid var(--divider-color);
+    border-bottom: 1px solid #BDBDBD;
 }
 
 .cover-image {
@@ -92,29 +84,15 @@ hr.hr-style-two {
   font-size: 60px;
 }
 .hero-text {
-  color: var(--text-icon-color);
+  color: #FFFFFF;
 }
 
 .chevron {
   margin-top: 20px;
   font-size: 32px;
-  color: var(--accent-color);
+  color: #FF4081;
 }
 
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
@@ -204,12 +182,9 @@ hr.hr-style-two {
   margin-bottom: 0.5em;
 }
 
-.Hitman-social-media #card-link-for-mobile a {
-  color: var(--primary-text-color);
-}
 .Hitman-social-media #card-link-for-mobile a:hover {
   cursor: pointer;
-  color: var(--accent-color);
+  color: #FF4081;
 }
 
 .Hitman-social-media #card-one {
